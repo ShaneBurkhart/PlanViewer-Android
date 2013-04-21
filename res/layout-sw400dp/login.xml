@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background"
+    android:gravity="center_horizontal">
+
+    <include layout="@layout/header"/>
+
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingRight="25dp"
+        android:paddingLeft="25dp">
+        
+        <LinearLayout 
+            android:id="@+id/llu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+            
+	        <TextView 
+	            android:layout_width="match_parent"
+	        	android:layout_height="wrap_content"
+	            android:text="@string/username"
+	            android:fontFamily="Trebuchet Arial"
+	            android:textSize="22sp"
+	            android:textColor="@color/text_color"
+	            />
+	        <EditText 
+	            android:id="@+id/et_username"
+	            android:layout_width="match_parent"
+	        	android:layout_height="wrap_content"
+	        	android:inputType="text"
+	            android:fontFamily="Trebuchet Arial"
+	            android:textSize="22sp"
+	            android:background="@drawable/text_box"
+	            android:padding="4dp"/>
+       </LinearLayout>
+       
+        <LinearLayout 
+            android:id="@+id/llp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/llu">
+	       <TextView 
+	            android:layout_width="match_parent"
+	        	android:layout_height="wrap_content"
+	            android:text="@string/password"
+	            android:fontFamily="Trebuchet Arial"
+	            android:textSize="22sp"
+	            android:textColor="@color/text_color"
+	            />
+	        <EditText 
+	            android:id="@+id/et_password"
+	            android:layout_width="match_parent"
+	        	android:layout_height="wrap_content"
+	        	android:inputType="textPassword"
+	            android:fontFamily="Trebuchet Arial"
+	            android:textSize="22sp"
+	            android:background="@drawable/text_box"
+	            android:padding="4dp"/>
+        </LinearLayout>
+        
+        <Button 
+            android:id="@+id/b_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:background="@drawable/grey_button"
+            android:textColor="@android:color/white"
+            android:textSize="23sp"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:layout_below="@id/llp"
+            android:layout_centerHorizontal="true"/>
+        
+        
+    </RelativeLayout>
+
+</LinearLayout>

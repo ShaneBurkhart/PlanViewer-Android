@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">Plan Viewer - Beta</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="contact">Contact</string>
+    <string name="jobs">Jobs</string>
+    <string name="check_for_updates">Check For Updates</string>
+
+</resources>

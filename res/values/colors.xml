@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#1D3A1D</color>
+    <color name="bottom_background">#C62D2D2D</color>
+    
+    
+    <color name="text_color">#ffffff</color>
+    
+    
+    <color name="header_start">#458c00</color>
+    <color name="header_end">#2f6000</color>
+    
+    <color name="grey_start">#707070</color>
+    <color name="grey_end">#555555</color>
+    
+     
+</resources>
